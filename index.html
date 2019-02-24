@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head><title></title>
+<link rel="stylesheet" type="text/css" href="style.css" media="all"> 
+<link rel="stylesheet" type="text/css"  href="normalize.css" media="all">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script  type="text/javascript "src="html5shiv.js"></script>
+<script  type="text/javascript "src="jquery.js"></script>
+<script  type="text/javascript "src="function.js"></script><script  type="text/javascript "src="jquery.js"></script>
+<!--<script  type="text/javascript "src="function.js"></script>-->
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta charset="utf-8">
+</head>
+
+<body>
+
+
+    <div class="container">
+                
+        <header class="header"><h1>Loja Virtual</h1>
+            <ul class="header__menu menu">
+                <!--<li>Inicio</li>
+                <li>Categorias</li>
+                <li>Sobre</li>
+                <li>Logar</li>-->
+               
+            </ul>
+            <div>
+            <input class="header__pesquisa" type="text" placeholder="Pesquisa"><input type="button" value="Buscar" class="btn btn--search" ></div></header>
+        <main class="border_black ">
+         <div class=" main__menu ">
+             <center><h2 class="main__menu_title">Filtro</h2></center>  
+            <ul>
+
+                <center>
+             <li>
+                 <select name="preco" id="">
+                     <option  selected= "true"class="option" value="0"> Preço</option>
+                     <option class="option" value="m_price"> Menor preço</option>
+                     <option class="option" value="m_price"> Maior preço</option>
+
+                 </select>
+                </li> <li>
+                 <select name="ordem" id="">
+                        <option selectd="true"class="option"  value=""> Ordem</option>
+                        <option class="option"  value=""> A-z</option>
+                        <option class="option" value=""> Z-a</option>
+                    </select>
+                </li> <li>
+                    <select name="tamanho" id="">
+                            <option  seletecd="true"class="option" value=""> Tamanho</option>
+                            <option class="option" value=""> P</option>
+                            <option class="option" value=""> M</option>
+                            <option class="option"value=""> G</option>
+                            <option class="option"  value=""> Todos</option>
+                        </select>
+                    </li>
+                    <select name="marcas" id="">
+                            <option  seletecd="true"class="option" value=""> Marcas</option>
+                            <option class="option" value=""> Adidas</option>
+                            <option class="option" value=""> Nike</option>
+                            <option class="option"value=""> Fatal</option>
+                            <option class="option"  value=""> Todas</option>
+                        </select>
+                    </li>
+                        <hr class="division">
+<input type="button" class="btn btn--filter" value="Atualizar">
+             </li>
+            </center>
+            </ul>
+
+         </div>
+         <section class="j_section">
+         <div class=" main__produtos ">
+          
+             <div>
+                 <div class="prod__title"> Produto 1</div>
+                 <img src="polo-usa.png" alt="">
+             <div class="prod__desc"><h4>RS 42,00 </h4> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.  ornare</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div>
+             <div class="prod__title"> Produto 2 </div> 
+             <img src="polo-usa.png" alt=""> 
+             <div class="prod__desc"><h4>RS 42,00 </h4> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a>
+            
+            </div>
+
+             <div>
+                 <div class="prod__title"> Camisa-Polo </div>
+                 <img src="polo-usa.png" alt=""> 
+                <div class="prod__desc"><span class="prod__btn btn--buy" href=""><a href="">comprar</a></span>
+                    <span class="prod__btn btn--buy"  href="">
+                        <a href="">detalhes</a> </span><h4>RS 42,00 </h4> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>   
+            </div>
+            <div>
+            <div class="prod__title"> Produto 1 </div>
+            <img src="polo-usa.png" alt="">
+            <div class="prod__desc"><a id="prod__btn"  href="" class="btn--buy">comprar</a>
+                <a id="prod__btn" href="" class="btn--buy"> detalhes</a><h4>RS 42,00 </h4> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+            </div>
+
+            <div><img src="polo-usa.png" alt=""><div class="prod__title"> Produto 1 </div>
+            <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+            <a href="prod__btn btn--buy"></a></div>
+            <div><img src="polo-usa.jpg" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="polo-usa.jpg" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="polo-usa.jpg" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="polo-usa.jpg" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="package.png" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="package.png" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="package.png" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="package.png" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="package.png" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="package.png" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="package.png" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="package.png" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="package.png" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="package.png" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="package.png" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="package.png" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="package.png" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="package.png" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="package.png" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="package.png" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><h4>RS 42,00 </h4> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="package.png" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+             <div><img src="package.png" alt=""><div class="prod__title"> Produto 1 </div>
+             <div class="prod__desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique nisi nibh, nec hendrerit purus malesuada et. Suspendisse potenti.</p></div>
+             <a href="prod__btn btn--buy"></a></div>
+
+
+         </div>
+            
+        </section>
+        </main>
+        <footer class=" footer"> FOOTER </footer>
+        
+    </div>
+
+
+
+</body>
+
+
+</html>
